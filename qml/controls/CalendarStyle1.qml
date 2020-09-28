@@ -2,7 +2,6 @@ import QtQuick 2.12
 import QtQuick.Controls 2.5
 import QtQuick.Controls 1.4 as Controls
 import QtQuick.Controls.Styles 1.4
-import QtGraphicalEffects 1.0
 import AppUtil 1.0
 
 ShadowedRectangle {
