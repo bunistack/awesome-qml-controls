@@ -11,16 +11,17 @@ App {
     Rectangle{
         anchors.fill: parent
 
-        GhostButton{
-            width: 150
-            height: 40
+        RoundedItem{
+            width: 200
+            height: 200
             anchors.centerIn: parent
-            text: "Open"
-            backgroundColor: "#ffe400"
-
-            onClicked: colorChooser.run(1)
+            color: "green"
+            opacity: 0.75
+            radius: Radius{
+                size: 40
+                topLeft: true
+            }
         }
-
     }
 
 }

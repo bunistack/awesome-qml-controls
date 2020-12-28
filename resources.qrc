@@ -57,5 +57,7 @@
         <file>qml/controls/DotsBusyIndicator.qml</file>
         <file>qml/controls/ProgressBarStyle1.qml</file>
         <file>qml/controls/TextButton.qml</file>
+        <file>qml/controls/Radius.qml</file>
+        <file>qml/controls/RoundedItem.qml</file>
     </qresource>
 </RCC>
